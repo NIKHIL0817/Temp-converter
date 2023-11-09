@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+}
+body{
+    background: url("https://www.nationalgrid.com/sites/default/files/images/HotWeatherThermomenter_Getty1146689937_640x360.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.wrapper{
+    width: 450px;
+    background-color: #ffffff9f;
+    padding: 60px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 44%;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+input:focus{
+    border-color: #3164ff;
+}
